@@ -1,0 +1,4 @@
+/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/pacman-rules/CMakeFiles/pacman-rules.dir
+/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/pacman-rules/CMakeFiles/test_pacman-rules.dir
+/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/pacman-rules/CMakeFiles/edit_cache.dir
+/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/pacman-rules/CMakeFiles/rebuild_cache.dir
