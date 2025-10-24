@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/lasagna_test.cpp" "CMakeFiles/lasagna.dir/lasagna_test.cpp.o" "gcc" "CMakeFiles/lasagna.dir/lasagna_test.cpp.o.d"
-  "/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/test/tests-main.cpp" "CMakeFiles/lasagna.dir/test/tests-main.cpp.o" "gcc" "CMakeFiles/lasagna.dir/test/tests-main.cpp.o.d"
+  "/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/lasagna_test.cpp" "CMakeFiles/lasagna.dir/lasagna_test.cpp.o" "gcc" "CMakeFiles/lasagna.dir/lasagna_test.cpp.o.d"
+  "/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/test/tests-main.cpp" "CMakeFiles/lasagna.dir/test/tests-main.cpp.o" "gcc" "CMakeFiles/lasagna.dir/test/tests-main.cpp.o.d"
   "" "lasagna" "gcc" "CMakeFiles/lasagna.dir/link.d"
   )
 

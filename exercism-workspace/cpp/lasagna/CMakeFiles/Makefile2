@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna
+CMAKE_SOURCE_DIR = /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna
+CMAKE_BINARY_DIR = /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/test_lasagna.dir/clean
 CMakeFiles/lasagna.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasagna.dir/build.make CMakeFiles/lasagna.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasagna.dir/build.make CMakeFiles/lasagna.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num=1,2,3 "Built target lasagna"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num=1,2,3 "Built target lasagna"
 .PHONY : CMakeFiles/lasagna.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lasagna.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lasagna.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles 0
 .PHONY : CMakeFiles/lasagna.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ lasagna: CMakeFiles/lasagna.dir/rule
 # codegen rule for target.
 CMakeFiles/lasagna.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lasagna.dir/build.make CMakeFiles/lasagna.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num=1,2,3 "Finished codegen for target lasagna"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num=1,2,3 "Finished codegen for target lasagna"
 .PHONY : CMakeFiles/lasagna.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/lasagna.dir/clean:
 CMakeFiles/test_lasagna.dir/all: CMakeFiles/lasagna.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lasagna.dir/build.make CMakeFiles/test_lasagna.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lasagna.dir/build.make CMakeFiles/test_lasagna.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num= "Built target test_lasagna"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num= "Built target test_lasagna"
 .PHONY : CMakeFiles/test_lasagna.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_lasagna.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_lasagna.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles 0
 .PHONY : CMakeFiles/test_lasagna.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ test_lasagna: CMakeFiles/test_lasagna.dir/rule
 # codegen rule for target.
 CMakeFiles/test_lasagna.dir/codegen: CMakeFiles/lasagna.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_lasagna.dir/build.make CMakeFiles/test_lasagna.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num= "Finished codegen for target test_lasagna"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles --progress-num= "Finished codegen for target test_lasagna"
 .PHONY : CMakeFiles/test_lasagna.dir/codegen
 
 # clean rule for target.

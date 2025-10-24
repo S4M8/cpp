@@ -6,8 +6,7 @@
 
 // ovenTime returns the amount in minutes that the lasagna should stay in the oven.
 int ovenTime() {
-  int time{40};
-    return time;
+    return 40;
 }
 
 /* 
@@ -15,8 +14,7 @@ int ovenTime() {
    minutes based on the actual minutes already in the oven.
 */
 int remainingOvenTime(int actualMinutesInOven) { 
-  int timeRemaining{ovenTime() - actualMinutesInOven};
-  return timeRemaining;
+  return ovenTime() - actualMinutesInOven;
 }
 
 /* 
@@ -24,8 +22,7 @@ int remainingOvenTime(int actualMinutesInOven) {
  number of layers and the necessary time per layer.
 */
 int preparationTime(int numberOfLayers) {
-    int timePerLayer{2};
-    return numberOfLayers * timePerLayer;
+    return numberOfLayers * 2;
 }
 
 // elapsedTime calculates the total time spent to create and bake the lasagna so far.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna
+CMAKE_SOURCE_DIR = /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna
+CMAKE_BINARY_DIR = /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna
 
 # Utility rule file for test_lasagna.
 
@@ -85,6 +85,6 @@ CMakeFiles/test_lasagna.dir/clean:
 .PHONY : CMakeFiles/test_lasagna.dir/clean
 
 CMakeFiles/test_lasagna.dir/depend:
-	cd /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles/test_lasagna.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna /home/s4m8/Documents/Repos/cpp/exercism-workspace/cpp/lasagna/CMakeFiles/test_lasagna.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_lasagna.dir/depend
 
