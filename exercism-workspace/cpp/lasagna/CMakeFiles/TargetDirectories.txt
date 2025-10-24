@@ -1,0 +1,4 @@
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles/lasagna.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles/test_lasagna.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles/edit_cache.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/lasagna/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/hello-world/CMakeFiles/hello-world.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/hello-world/CMakeFiles/test_hello-world.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/hello-world/CMakeFiles/edit_cache.dir
+/home/s4m8/Documents/Repos/exercism-workspace/cpp/hello-world/CMakeFiles/rebuild_cache.dir
