@@ -1,6 +1,3 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -11,20 +8,10 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -37,5 +24,29 @@
 *.out
 *.app
 
-# debug information files
-*.dwo
+# Dependency files
+*.d
+
+# Fortran module files (safe to ignore even for C++ projects)
+*.mod
+*.smod
+
+# CMake build directory
+/build
+/build-*/
+
+# CodeBlocks project files
+*.layout
+*.depend
+bin/
+obj/
+
+# Qt Creator & qmake
+*.pro.user
+*.qmake.cache
+*.qmake.stash
+
+# User-specific files and IDE settings (edit as needed)
+*.swp
+*.DS_Store
+
