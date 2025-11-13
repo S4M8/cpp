@@ -28,9 +28,8 @@ double annual_balance_update(double balance) {
 int years_until_desired_balance(double balance, double target_balance) {
   int years = 0;
   while (balance < target_balance) {
-    balance += yearly_interest(balance);
+    balance = annual_balance_update(balance);
     ++years;
-    std::cout << "Balance: " << balance << "Year: " << years << std::endl;
   }
   return years;
 }
